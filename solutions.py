@@ -49,7 +49,7 @@ def get_greatest():
     second_num = int(input("enter the second number:"))
     if first_num > second_num:
         return first_num
-    elif first_num < second_num:
+    if first_num < second_num:
         return second_num
     else:
         return first_num
